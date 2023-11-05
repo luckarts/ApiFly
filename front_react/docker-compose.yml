@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      - PORT=8080
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./server:/opt/app/server
+      - ./src:/opt/app/src

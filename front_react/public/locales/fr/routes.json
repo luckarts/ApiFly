@@ -1,0 +1,8 @@
+{
+  "/register": "/incription",
+  "/login": "/connection",
+  "/dashboard": "/admin",
+  "/notfound": "/404",
+
+  "/": "/"
+}

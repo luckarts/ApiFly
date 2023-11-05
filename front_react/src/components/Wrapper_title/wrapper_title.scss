@@ -1,0 +1,18 @@
+.wrapper_title {
+  padding-top: 7rem;
+  background-image: url('/img/wrapper_title.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  .title {
+    margin-bottom: 2rem;
+  }
+}
+.mask_bg {
+  background-image: url('/img/mask.svg');
+  background-size: 100% 100px;
+  bottom: 0;
+  height: 100px;
+  z-index: 1;
+  transform: scale(1, 1);
+}
